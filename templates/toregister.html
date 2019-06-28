@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+    <h3>Register below</h3>
+    <form action="/toregister" method="POST">
+        <input type="text" name="username" placeholder="Username" />
+        <input type="password" name="password" placeholder="Password" />
+        <input type="text" name="first_name" placeholder="First Name"/>
+        <input type="text" name="last_name" placeholder="Last Name"/>
+        <input type="submit" value="Submit"/>
+    </form>
+    <h2>{{ errorInfo }}</h2>
+</body>
+</html>
