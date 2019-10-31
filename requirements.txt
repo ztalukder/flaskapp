@@ -21,4 +21,4 @@ virtualenv==15.1.0
 Werkzeug==0.11.11
 WTForms==2.1
 filetype==1.0.1
-pillow==2.2.1
+pillow==6.2.0
